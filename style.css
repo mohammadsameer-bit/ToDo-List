@@ -127,11 +127,14 @@ body{
 }
 
 @media screen and (max-width: 418px) {
-    body{
-        overflow-x: hidden;
-    }
+ 
+     .container{
+        border: 1px solid black;
+        width: 100%;
+        overflow: hidden;
+     }
     .inputFeilds form input{
-        width: 35%;
+        max-width: 50%;
         height: 23px;
         border-radius: 10px;
         outline: none;
@@ -142,7 +145,7 @@ body{
     
     }
     .inputFeilds form textarea{
-        width: 35%;
+        max-width: 50%;
         height: 40px;
         border-radius: 10px;
         outline: none;
@@ -172,20 +175,17 @@ body{
         align-items: center;
         justify-content: center;
         flex-wrap: wrap ;
-        border: 1px solid black;
-        width: 60%;
+        width: 80%;
         height: auto;
         background-color: aliceblue;
         border-radius: 5px;
-        margin-left: 90px;
+        margin-left: 10px;
         margin-bottom: 10px;
         box-shadow: 3px 3px 3px 3px black;
     
     }
     .addTask p{
         flex-direction: row;
-        /* margin-left: 10px;
-        margin-right: 30px; */
         font-size: 17px;
         color: rgb(156, 52, 52);
         word-wrap:break-word;
@@ -202,7 +202,7 @@ body{
         font-size: 20px;
         margin-top: 32px;
         position: relative;
-        left: 15%;
+        left: 13%;
         color: rgb(41, 39, 39);
     }
 }
